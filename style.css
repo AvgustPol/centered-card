@@ -1,0 +1,51 @@
+
+:root {
+    --gradient-start: #CE6A85;
+    --gradient-end: #985277;
+/*     
+    --gradient-start: #2D848A;
+    --gradient-end: #3587A4; 
+*/
+
+    --main-white: #FFFFFF;
+}
+
+
+html {
+    font-size: 12px;
+}
+
+.card {
+     width: 350px; /* hardcoded for the example purpose */
+    height: 420px; /* hardcoded for the example purpose */
+
+    background: linear-gradient(180deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.text {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 2.25em;
+
+    color: var(--main-white);
+}
+
+.card-img img {
+    width: 80%;
+}
+
